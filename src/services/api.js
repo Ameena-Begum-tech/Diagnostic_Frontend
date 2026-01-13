@@ -1,9 +1,9 @@
-// Language: JavaScript (Axios API config)
+// Language: JavaScript (Axios API Config)
 
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://127.0.0.1:4000/api",
+  baseURL: "https://diagnostic-portal.onrender.com/api",
 });
 
 export default API;
